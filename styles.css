@@ -1,0 +1,157 @@
+/* General Styles */
+
+/* Set font family and text alignment for profile description */
+#profile-description {
+    font-family: Calibri, sans-serif;
+    text-align: justify;
+}
+
+/* Set default font family, margin, padding, and background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE3CA; /* Set background color */
+}
+
+/* Styles for the header */
+header {
+    background-color: #333; /* Set background color */
+    color: #FFE3CA; /* Set text color */
+    padding: 10px 10px; /* Set padding */
+    text-align: right; /* Align text to the right */
+}
+
+/* Styles for navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #FBA834; /* Set link color */
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Styles for the main content area */
+main {
+    padding: 20px;
+    margin-bottom: 50px; /* Add margin bottom */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333; /* Set background color */
+    color: #FFE3CA; /* Set text color */
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Profile Page Styles */
+
+/* Styles for the profile section */
+#profile {
+    padding: 20px;
+}
+
+/* Styles for the profile container */
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+}
+
+/* Styles for the profile picture */
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Styles for the profile content */
+.profile-content {
+    flex: 1; /* Grow to fill available space */
+    display: flex; /* Ensure content flows in one direction */
+    flex-direction: column; /* Display content in a column */
+}
+
+/* Styles for paragraphs in the profile content */
+.profile-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Adjust text color */
+}
+
+/* Styles for headings */
+h1 {
+    color: #333; /* Adjust heading color */
+}
+
+/* Grade Converter Page Styles */
+
+/* Styles for validation message */
+#validation-message {
+    color: red; /* Set text color to red */
+}
+
+/* Staff Page Styles */
+
+/* Styles for the container */
+.container {
+    margin: 10px;
+}
+
+/* Styles for tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px; /* Add margin to the top */
+    margin-bottom: 10px; /* Add margin to the bottom */
+}
+
+/* Styles for table header cells and data cells */
+th, td {
+    border: 1px solid #0a0a0a;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Styles for table header cells */
+th {
+    background-color: #7f7d78; /* Set background color */
+}
+
+/* Weather Page Styles */
+
+/* Styles for input fields */
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+/* Styles for buttons */
+button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #FFE3CA; /* Set text color */
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover styles for buttons */
+button:hover {
+    background-color: #555; /* Darken background color on hover */
+}

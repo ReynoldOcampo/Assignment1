@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="grade.html">Grade Converter</a></li>
+                <li><a href="staff.html">Staff Page</a></li>
+                <li><a href="weather.html">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <section>
+                <h1>Staff Information</h1>
+                <button id="sortByName">Sort by Name</button>
+                <button id="sortBySalary">Sort by Salary</button>
+                <table id="staffTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Title</th>
+                            <th>Location</th>
+                            <th>Employee ID</th>
+                            <th>Start Date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody id="staffData">
+                        <!-- Staff information will be displayed here -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p id="footer-content"></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
